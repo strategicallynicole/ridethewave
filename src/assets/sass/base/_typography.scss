@@ -102,8 +102,10 @@
 		font-weight: _font(weight-bold);
 	}
 .highlight {
-    background-color: #f6cc1b;
-    padding
+    background-color: $yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 	a {
 		@include vendor('transition', (

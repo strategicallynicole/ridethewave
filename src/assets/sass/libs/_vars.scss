@@ -24,7 +24,7 @@
 
 // Font.
 	$font: (
-	    family: 'proxima-nova';
+	    family: ('proxima-nova');
 	    font-style: normal;
 			family-fixed:		('Courier New', monospace),
 			weight:				normal,
@@ -32,7 +32,7 @@
 			kerning-alt:		0.25em
 	);
 
-// Palette.
+// Palette.#5e42a6
 	$palette: (
 		bg:					#44245B,
 		bg-alt:			#5f2d78,
