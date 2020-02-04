@@ -9,6 +9,8 @@ import Header from '../components/common/Header';
 
 const SecondPage = () => (
   <Layout>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
     <Header />
 
     <div id="wrapper">
