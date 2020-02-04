@@ -1,3 +1,4 @@
+import '../common/modernizer.js';
 import React from 'react';
 import Scroll from '../common/Scroll';
 //start typewriter
