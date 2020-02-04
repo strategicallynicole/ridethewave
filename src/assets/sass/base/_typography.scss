@@ -5,8 +5,80 @@
 ///
 
 /* Type */
+  @import url("https://use.typekit.net/iuo7tvu.css");
 
-	body, input, select, textarea {
+  @font-face {
+      font-family: 'proxima-novablack';
+      src: url('../fonts/proxima-nova-black-webfont.woff2') format('woff2'),
+           url('../fonts/proxima-nova-black-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: 'proxima-novabold';
+      src: url('../fonts/proxima-nova-bold-webfont.woff2') format('woff2'),
+           url('../fonts/proxima-nova-bold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+
+  @font-face {
+      font-family: 'proxima-novaextrabold';
+      src: url('../fonts/proxima-nova-extrabold-webfont.woff2') format('woff2'),
+           url('../fonts/proxima-nova-extrabold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: 'proxima-novathin';
+      src: url('../fonts/proxima-nova-thin-webfont.woff2') format('woff2'),
+           url('../fonts/proxima-nova-thin-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: 'timeout-goodiesregular';
+      src: url('../fonts/timout-goodies-webfont.woff2') format('woff2'),
+           url('../fonts/timout-goodies-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: 'timeout-sansregular';
+      src: url('../fonts/timought-sans-regular-webfont.woff2') format('woff2'),
+           url('../fonts/timought-sans-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: 'timeoutregular';
+      src: url('../fonts/timeout-webfont.woff2') format('woff2'),
+           url('../fonts/timeout-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: 'bangersregular';
+      src: url('../fonts/bangers-webfont.woff2') format('woff2'),
+           url('../fonts/bangers-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
 		font-size: 16.5pt;
@@ -25,7 +97,14 @@
 			font-size: 11pt;
 		}
 	}
-
+  strong, b {
+		color: _palette(fg-bold);
+		font-weight: _font(weight-bold);
+	}
+.highlight {
+    background-color: #f6cc1b;
+    padding
+}
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease',

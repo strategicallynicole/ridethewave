@@ -1,0 +1,10 @@
+.horizontal-bar {
+  height: 3px;
+  object-fit: contain;
+  background-image: linear-gradient(to top, var(--darkpink) 96%, #e34256 41%, var(--orange) -4%);
+}
+
+.vertical-bar {
+  width: 3px;
+  background-image: linear-gradient(to top, var(--darkpink) 100%, #e34256 45%, var(--orange) 0%);
+}
